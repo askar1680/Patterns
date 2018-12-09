@@ -18,6 +18,7 @@
 		7B5E14A421B3AA5500ACBAE1 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E14A321B3AA5500ACBAE1 /* Beverage.swift */; };
 		7B5E14A721B3B3A900ACBAE1 /* PizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E14A621B3B3A900ACBAE1 /* PizzaStore.swift */; };
 		7B7870CC21BB819B00BD0933 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7870CB21BB819B00BD0933 /* Pizza.swift */; };
+		7BA4B6D621BD7FBC00ECEDB9 /* CaffeineBeverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA4B6D521BD7FBC00ECEDB9 /* CaffeineBeverage.swift */; };
 		7BCD941C21AAA956005E7796 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD941B21AAA956005E7796 /* main.swift */; };
 		7BCD942321AAA9A6005E7796 /* ArithmeticExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD942221AAA9A6005E7796 /* ArithmeticExpression.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		7B5E14A321B3AA5500ACBAE1 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
 		7B5E14A621B3B3A900ACBAE1 /* PizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore.swift; sourceTree = "<group>"; };
 		7B7870CB21BB819B00BD0933 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		7BA4B6D521BD7FBC00ECEDB9 /* CaffeineBeverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineBeverage.swift; sourceTree = "<group>"; };
 		7BCD941821AAA956005E7796 /* SwiftProgrammingLanguage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftProgrammingLanguage; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCD941B21AAA956005E7796 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7BCD942221AAA9A6005E7796 /* ArithmeticExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticExpression.swift; sourceTree = "<group>"; };
@@ -115,6 +117,14 @@
 			path = Factory;
 			sourceTree = "<group>";
 		};
+		7BA4B6D421BD7F9000ECEDB9 /* Template Method */ = {
+			isa = PBXGroup;
+			children = (
+				7BA4B6D521BD7FBC00ECEDB9 /* CaffeineBeverage.swift */,
+			);
+			path = "Template Method";
+			sourceTree = "<group>";
+		};
 		7BCD940F21AAA956005E7796 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 				7B5E14A521B3B39200ACBAE1 /* Factory */,
 				7B11BC0C21BD05F10013C55A /* Command */,
 				7B11BC1121BD0C5E0013C55A /* Adapter */,
+				7BA4B6D421BD7F9000ECEDB9 /* Template Method */,
 				7BCD942221AAA9A6005E7796 /* ArithmeticExpression.swift */,
 			);
 			path = SwiftProgrammingLanguage;
@@ -216,6 +227,7 @@
 				7B7870CC21BB819B00BD0933 /* Pizza.swift in Sources */,
 				7B11BC0E21BD06170013C55A /* Command.swift in Sources */,
 				7B5E149A21B3978F00ACBAE1 /* FlyBehavior.swift in Sources */,
+				7BA4B6D621BD7FBC00ECEDB9 /* CaffeineBeverage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

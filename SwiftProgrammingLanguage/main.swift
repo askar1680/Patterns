@@ -46,3 +46,10 @@
 //turkeyAdapter.fly()
 
 
+// Template method
+
+//let tea = Tea()
+//tea.prepareRecipe()
+
+
+
