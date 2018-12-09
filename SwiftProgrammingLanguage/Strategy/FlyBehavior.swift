@@ -1,7 +1,4 @@
 
-
-
-
 protocol FlyBehavior {
   func fly()
 }

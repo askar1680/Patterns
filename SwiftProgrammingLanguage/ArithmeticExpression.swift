@@ -33,4 +33,3 @@ func evaluate(_ expression: ArithmeticExrepssion) -> Int{
     }
 }
 
-//print(evaluate(product))

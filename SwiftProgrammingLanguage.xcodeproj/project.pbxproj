@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B11BC0E21BD06170013C55A /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B11BC0D21BD06170013C55A /* Command.swift */; };
+		7B11BC1021BD08A90013C55A /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B11BC0F21BD08A90013C55A /* Light.swift */; };
+		7B11BC1321BD0F7C0013C55A /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B11BC1221BD0F7C0013C55A /* Adapter.swift */; };
 		7B5E149721B3967700ACBAE1 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E149621B3967700ACBAE1 /* Duck.swift */; };
 		7B5E149A21B3978F00ACBAE1 /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E149921B3978F00ACBAE1 /* FlyBehavior.swift */; };
 		7B5E149C21B397AE00ACBAE1 /* QuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E149B21B397AE00ACBAE1 /* QuackBehavior.swift */; };
@@ -32,6 +35,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B11BC0D21BD06170013C55A /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		7B11BC0F21BD08A90013C55A /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		7B11BC1221BD0F7C0013C55A /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		7B5E149621B3967700ACBAE1 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 		7B5E149921B3978F00ACBAE1 /* FlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
 		7B5E149B21B397AE00ACBAE1 /* QuackBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackBehavior.swift; sourceTree = "<group>"; };
@@ -56,6 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B11BC0C21BD05F10013C55A /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				7B11BC0D21BD06170013C55A /* Command.swift */,
+				7B11BC0F21BD08A90013C55A /* Light.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		7B11BC1121BD0C5E0013C55A /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				7B11BC1221BD0F7C0013C55A /* Adapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
 		7B5E149821B3977A00ACBAE1 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +139,8 @@
 				7B5E149D21B39EEC00ACBAE1 /* Observer */,
 				7B5E14A221B3AA1D00ACBAE1 /* Decorator */,
 				7B5E14A521B3B39200ACBAE1 /* Factory */,
+				7B11BC0C21BD05F10013C55A /* Command */,
+				7B11BC1121BD0C5E0013C55A /* Adapter */,
 				7BCD942221AAA9A6005E7796 /* ArithmeticExpression.swift */,
 			);
 			path = SwiftProgrammingLanguage;
@@ -178,15 +203,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B11BC1321BD0F7C0013C55A /* Adapter.swift in Sources */,
 				7BCD941C21AAA956005E7796 /* main.swift in Sources */,
 				7B5E149C21B397AE00ACBAE1 /* QuackBehavior.swift in Sources */,
 				7B5E14A421B3AA5500ACBAE1 /* Beverage.swift in Sources */,
 				7BCD942321AAA9A6005E7796 /* ArithmeticExpression.swift in Sources */,
 				7B5E149721B3967700ACBAE1 /* Duck.swift in Sources */,
 				7B5E149F21B39F0D00ACBAE1 /* Subject.swift in Sources */,
+				7B11BC1021BD08A90013C55A /* Light.swift in Sources */,
 				7B5E14A721B3B3A900ACBAE1 /* PizzaStore.swift in Sources */,
 				7B5E14A121B39F2800ACBAE1 /* Observer.swift in Sources */,
 				7B7870CC21BB819B00BD0933 /* Pizza.swift in Sources */,
+				7B11BC0E21BD06170013C55A /* Command.swift in Sources */,
 				7B5E149A21B3978F00ACBAE1 /* FlyBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@
 //let currentConditionDisplat = CurrentConditionsDisplay(weatherData: weatherData)
 //weatherData.setMeasurements(temp: 15, humidity: 56, pressure: 32)
 
+
 // Decorator (it doesn't work)
 //let beverage = Espresso()
 //let beverage2 = MochoCoffee(beverage: beverage)
@@ -21,6 +22,27 @@
 
 // Factory
 
-let pizzaStore: PizzaStore = ChicagoPizzaStore()
-let pizza = pizzaStore.orederPizza(type: .clam)
-print("price = \(pizza.price)")
+//let pizzaStore: PizzaStore = ChicagoPizzaStore()
+//let pizza = pizzaStore.orederPizza(type: .clam)
+//print("price = \(pizza.price)")
+
+
+// Command
+
+//let remoteControl = SimpleRemoteControl()
+//let light = Light()
+//let lightOffCommand = LightOffCommand(light: light)
+//let lightOnCommand = LightOnCommand(light: light)
+//remoteControl.addCommand(type: .light, commandOn: lightOnCommand, commandOff: lightOffCommand)
+//remoteControl.onButtonPressed(type: .light)
+//remoteControl.offButtonPressed(type: .light)
+
+
+// Adapter
+
+//let turkey = WildTurkey()
+//let turkeyAdapter = TurkeyAdapter(turkey: turkey)
+//turkeyAdapter.quack()
+//turkeyAdapter.fly()
+
+
